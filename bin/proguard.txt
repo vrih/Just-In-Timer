@@ -1,0 +1,73 @@
+# view AndroidManifest.xml #generated:32
+-keep class com.danbowtell.justintimer.AlarmNotify { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.danbowtell.justintimer.ItemDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.danbowtell.justintimer.JITPreferences { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.danbowtell.justintimer.JustInTimer { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.danbowtell.justintimer.TimerActionReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.danbowtell.justintimer.TimerWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.danbowtell.justintimer.TimerWidget$UpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.danbowtell.justintimer.TimerWidgetConfigure { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:15
+# view sw600dp/res/layout-sw600dp/main.xml #generated:16
+-keep class com.google.ads.AdView { <init>(...); }
+
+# view land/res/layout-land/new_timer.xml #generated:13
+# view land/res/layout-land/new_timer.xml #generated:14
+# view land/res/layout-land/new_timer.xml #generated:15
+# view res/layout/new_timer.xml #generated:12
+# view res/layout/new_timer.xml #generated:16
+# view res/layout/new_timer.xml #generated:20
+# view res/layout/time_layout.xml #generated:18
+# view res/layout/time_layout.xml #generated:22
+# view sw600dp/res/layout-sw600dp/time_layout.xml #generated:18
+# view sw600dp/res/layout-sw600dp/time_layout.xml #generated:22
+-keep class kankan.wheel.widget.WheelView { <init>(...); }
+
+# onClick res/layout/new_timer.xml #generated:79
+# onClick sw600dp/res/layout-sw600dp/new_timer.xml #generated:81
+# onClick v11/res/layout-v11/new_timer.xml #generated:81
+# onClick v12/res/layout-v12/new_timer.xml #generated:81
+# onClick v13/res/layout-v13/new_timer.xml #generated:81
+# onClick v14/res/layout-v14/new_timer.xml #generated:81
+# onClick v15/res/layout-v15/new_timer.xml #generated:81
+# onClick v16/res/layout-v16/new_timer.xml #generated:81
+-keepclassmembers class * { *** cancelButtonClick(...); }
+
+# onClick res/layout/new_timer.xml #generated:85
+# onClick sw600dp/res/layout-sw600dp/new_timer.xml #generated:87
+# onClick v11/res/layout-v11/new_timer.xml #generated:87
+# onClick v12/res/layout-v12/new_timer.xml #generated:87
+# onClick v13/res/layout-v13/new_timer.xml #generated:87
+# onClick v14/res/layout-v14/new_timer.xml #generated:87
+# onClick v15/res/layout-v15/new_timer.xml #generated:87
+# onClick v16/res/layout-v16/new_timer.xml #generated:87
+-keepclassmembers class * { *** okButtonClick(...); }
+
+# onClick res/layout/new_timer.xml #generated:57
+# onClick sw600dp/res/layout-sw600dp/new_timer.xml #generated:59
+# onClick v11/res/layout-v11/new_timer.xml #generated:59
+# onClick v12/res/layout-v12/new_timer.xml #generated:59
+# onClick v13/res/layout-v13/new_timer.xml #generated:59
+# onClick v14/res/layout-v14/new_timer.xml #generated:59
+# onClick v15/res/layout-v15/new_timer.xml #generated:59
+# onClick v16/res/layout-v16/new_timer.xml #generated:59
+-keepclassmembers class * { *** onRingtoneButtonClick(...); }
+

@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    style="@style/DetailsMainLayout" >
+  
+  <LinearLayout
+      android:id="@+id/wheel_selector"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:orientation="horizontal" >
+    <NumberPicker
+	android:id="@+id/numberPickerHours"
+	android:layout_width="50sp"
+	android:layout_height="wrap_content" />
+    
+    <NumberPicker
+	android:id="@+id/numberPickerMinutes"
+	android:layout_width="50sp"
+	android:layout_height="wrap_content" />
+    
+    <NumberPicker
+	android:id="@+id/numberPickerSeconds"
+	android:layout_width="50sp"
+	android:layout_height="wrap_content" />
+  </LinearLayout>
+  
+  <TextView
+      android:id="@+id/tTnameTitle"
+      style="@style/DetailsTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/wheel_selector"
+      android:text="@string/name" />
+  
+  <EditText
+      android:id="@+id/tTname"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/wheel_selector"
+      android:layout_toRightOf="@id/tTnameTitle"
+      android:inputType="text" />
+  
+  <CheckBox
+      android:id="@+id/toneCB"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_below="@id/tTname" />
+  
+  <TextView
+      android:id="@+id/toneCBName"
+      style="@style/DetailsTextView"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tTname"
+      android:layout_toLeftOf="@id/toneCB"
+      android:text="@string/use_custom_tone" />
+  
+  <Button
+      android:id="@+id/ringtone"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/toneCB"
+      android:onClick="onRingtoneButtonClick"
+      android:text="@string/ringtone" />
+  
+  <TextView
+      android:id="@+id/ringtone_display"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/ringtone" />
+  
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/ringtone_display"
+      android:gravity="center_horizontal"
+      android:orientation="horizontal" >
+    
+    <Button
+	android:id="@+id/cancel"
+	style="@style/DetailsBottomButton"
+	android:onClick="cancelButtonClick"
+	android:text="@android:string/cancel" />
+    
+    <Button
+	android:id="@+id/ok"
+	style="@style/DetailsBottomButton"
+	android:layout_marginLeft="10dip"
+	android:onClick="okButtonClick"
+	android:text="@android:string/ok" />
+  </LinearLayout>
+</RelativeLayout>

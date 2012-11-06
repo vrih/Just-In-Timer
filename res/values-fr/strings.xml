@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_timer">Nouveau Minuteur</string>
+    <string name="delete">Effacer</string>
+    <string name="finished">Fini</string>
+    <string name="refresh">Reset</string>
+    <string name="edit">Editer</string>
+    <string name="name">Name</string>
+    <string name="reset">Reset</string>
+    <string name="preferences">Preferences</string>
+    <string name="internal_tone">Custom Tone</string>
+    <string name="internal_tone_summary">Use custom notification sound</string>
+    <string name="ringtone">Notification Sound</string>
+    <string name="ringtone_summary">Use custom notification sound</string>
+    <string name="ringtone_title">Select alarm</string>
+    <string name="use_custom_tone">Use Custom Ringtone</string>
+    <string name="default_tone">Default Ringtone</string>
+    <string name="silent">Silence</string>    
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout 
+		android:id="@+id/li_layout" 
+		android:layout_width="fill_parent"
+		android:layout_height="?android:attr/listPreferredItemHeight">
+		android:padding="6dp"
+		android:orientation="horizontal">
+		<ImageView 
+		    android:contentDescription="clock icon"
+		    android:layout_marginRight="6dip" 
+		    android:src="@drawable/listicon"
+			android:id="@+id/icon" 
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"/>
+		<TextView 
+		    android:id="@+id/name" 
+		    android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:layout_width="fill_parent" 
+			android:ellipsize="end"
+			android:textSize="20sp" 
+			android:gravity="center_vertical" />
+
+		<TextView
+		    android:id="@+id/time"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="0"
+		    android:gravity="center_vertical|right"
+		    android:inputType="none"
+		    android:padding="6dp"
+		    android:text="00:00"
+		    android:textIsSelectable="false"
+		    android:textSize="25sp"
+		    android:textStyle="bold" />
+
+	</LinearLayout>
+	<TextView 
+		    android:id="@+id/drawer"
+		    android:layout_width="fill_parent"
+			android:background="#0000FF00" 
+			android:textSize="40sp" 
+			android:text="@string/reset"
+			android:textColor="@color/transparent" 
+			android:layout_height="?android:attr/listPreferredItemHeight"
+ 			android:gravity="center_vertical|center"
+			android:singleLine="true" />
+</FrameLayout>
+

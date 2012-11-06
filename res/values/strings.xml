@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just In Timer</string>
+    <string name="main_no_items">No Timers.\nPress Menu button to add new timers.\nSwipe to reset expired timers.\nLong press to edit timers</string>
+    <string name="new_timer">Add Timer</string>
+    <string name="delete">Delete</string>
+    <string name="finished">Finished</string>
+    <string name="refresh">Reset</string>
+    <string name="edit">Edit</string>
+    <string name="name">Name:</string>
+    <string name="reset">Reset</string>
+    <string name="preferences">Preferences</string>
+    <string name="internal_tone">Custom Tone</string>
+    <string name="internal_tone_summary">Use custom notification sound</string>
+    <string name="ringtone">Notification Sound</string>
+    <string name="ringtone_summary">Use custom notification sound</string>
+    <string name="ringtone_title">Select alarm</string>
+    <string name="use_custom_tone">Use Custom Ringtone</string>
+    <string name="default_tone">Default Ringtone</string>
+    <string name="silent">Silent</string>    
+</resources>

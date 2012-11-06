@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory>
+	<CheckBoxPreference 
+		android:key="default_tone"
+		android:title="@string/internal_tone"
+		android:summary="@string/internal_tone_summary"
+		android:defaultValue="false" />
+	<RingtonePreference 
+		android:ringtoneType="all"
+		android:key="ringtone_preference" 
+		android:title="@string/ringtone"
+		android:summary="@string/ringtone_summary" 
+		android:dependency="default_tone" />
+</PreferenceCategory>
+</PreferenceScreen>

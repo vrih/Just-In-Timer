@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+
+<!-- Details activity styles -->
+	<style name="DetailsMainLayout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+
+  	<style name="DetailsBottomButton">
+  		<item name="android:layout_width">fill_parent</item>
+  		<item name="android:layout_height">wrap_content</item>
+  		<item name="android:layout_weight">1</item>
+  	</style>
+
+	<style name="WheelPicker">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="DetailsTextView">
+		<item name="android:textSize">17sp</item>
+		<item name="android:padding">6dp</item>
+		<item name="android:layout_gravity">left|center_vertical</item>
+	</style>
+
+</resources>
