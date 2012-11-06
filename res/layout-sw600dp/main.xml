@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     xmlns:myapp="http://schemas.android.com/apk/res/com.danbowtell.justintimer"
 	android:orientation="vertical"
 	android:layout_width="fill_parent"
@@ -13,13 +12,5 @@
 	    android:layout_height="0dip"
 	    android:layout_weight="1"
 	    android:scrollingCache="false" />
-	<com.google.ads.AdView 
-	    android:id="@+id/ad"
-	    ads:adUnitId="a14d23d18851efa"
-	    ads:adSize="BANNER"
-	    ads:testDevices="TEST_EMULATOR"
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content"
-	    ads:loadAdOnCreate="true" />
 </LinearLayout>
 
