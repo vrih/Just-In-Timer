@@ -54,4 +54,17 @@
 /home/dan/workspace/JustInTimer/res/drawable-hdpi/statusicon.png \
 /home/dan/workspace/JustInTimer/res/drawable-hdpi/icon.png \
 /home/dan/workspace/JustInTimer/res/drawable-hdpi/listicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-hdpi-v9/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable/stopwatch1.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-ldpi/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-ldpi/icon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-ldpi/listicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-mdpi/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-mdpi/icon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-mdpi/listicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-ldpi-v9/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-mdpi-v9/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-hdpi/statusicon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-hdpi/icon.png \
+/home/dan/workspace/JustInTimer/bin/res/drawable-hdpi/listicon.png \
 /home/dan/workspace/JustInTimer/bin/AndroidManifest.xml \

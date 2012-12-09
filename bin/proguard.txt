@@ -1,29 +1,26 @@
-# view AndroidManifest.xml #generated:32
+# view AndroidManifest.xml #generated:31
 -keep class com.danbowtell.justintimer.AlarmNotify { <init>(...); }
 
-# view AndroidManifest.xml #generated:25
+# view AndroidManifest.xml #generated:24
 -keep class com.danbowtell.justintimer.ItemDetailsActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:26
+# view AndroidManifest.xml #generated:25
 -keep class com.danbowtell.justintimer.JITPreferences { <init>(...); }
 
-# view AndroidManifest.xml #generated:14
+# view AndroidManifest.xml #generated:13
 -keep class com.danbowtell.justintimer.JustInTimer { <init>(...); }
 
-# view AndroidManifest.xml #generated:35
+# view AndroidManifest.xml #generated:34
 -keep class com.danbowtell.justintimer.TimerActionReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:45
+# view AndroidManifest.xml #generated:44
 -keep class com.danbowtell.justintimer.TimerWidget { <init>(...); }
 
-# view AndroidManifest.xml #generated:64
+# view AndroidManifest.xml #generated:63
 -keep class com.danbowtell.justintimer.TimerWidget$UpdateService { <init>(...); }
 
-# view AndroidManifest.xml #generated:58
+# view AndroidManifest.xml #generated:57
 -keep class com.danbowtell.justintimer.TimerWidgetConfigure { <init>(...); }
-
-# view AndroidManifest.xml #generated:67
--keep class com.google.ads.AdActivity { <init>(...); }
 
 # view land/res/layout-land/new_timer.xml #generated:13
 # view land/res/layout-land/new_timer.xml #generated:14

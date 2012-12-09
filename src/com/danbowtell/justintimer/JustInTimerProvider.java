@@ -10,7 +10,8 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class JustInTimerProvider{
+public class JustInTimerProvider
+{
 	private static final String TAG = "JustInTimerProvider";
 
 	private static final String DATABASE_NAME = "justintimer.db";
@@ -84,7 +85,7 @@ public class JustInTimerProvider{
 							success = upgradeToVersion17(db);
 							break;
 					}
-		
+
 					if (!success) {
 						break;
 					}
